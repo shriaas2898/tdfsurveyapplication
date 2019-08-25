@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="84dp"
-            android:text="@string/question_sixteen_1"
+            android:text="@string/question_fifteen_sub_1"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/personal_details_label" />
@@ -139,7 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="84dp"
-            android:text="@string/question_sixteen_2"
+            android:text="@string/question_fifteen_sub_2"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/personal_details_label" />
@@ -162,7 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="84dp"
-            android:text="@string/question_sixteen_3"
+            android:text="@string/question_fifteen_sub_3"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/personal_details_label" />
@@ -186,7 +186,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginLeft="8dp"
-        android:text="@string/question_sixteen_4"
+        android:text="@string/question_fifteen_sub_4"
         android:textSize="20sp" />
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -225,7 +225,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:layout_marginLeft="8dp"
-            android:text="@string/question_sixteen_5"
+            android:text="@string/question_fifteen_sub_5"
             android:textSize="20sp" />
         <LinearLayout
             android:id="@+id/linearLayout_1"
@@ -255,15 +255,6 @@
                     android:text="Cash"
                     android:textSize="20sp" />
 
-                <RadioButton
-                    android:id="@+id/rating_13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="Kind"
-                    android:textSize="20sp" />
-
-
             </RadioGroup>
         </LinearLayout>
 
@@ -273,20 +264,38 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:layout_marginLeft="8dp"
-            android:text="@string/question_sixteen_6"
+            android:text="@string/question_fifteen_sub_5"
             android:textSize="20sp" />
-        <EditText
-            android:id="@+id/respondent_name_edit_text_3"
+        <LinearLayout
+            android:id="@+id/linearLayout_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="8dp"
-            android:ems="10"
-            android:layout_marginRight="20dp"
-            app:layout_constraintBottom_toBottomOf="@+id/rating_label_financial_assistance_2"
-            app:layout_constraintStart_toEndOf="@+id/rating_label_financial_assistance_2"
-            app:layout_constraintTop_toTopOf="@+id/rating_label_financial_assistance_2" />
+            android:layout_marginLeft="10dp">
 
+            <RadioGroup
+                android:id="@+id/rating_financial_assistance_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rating_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="yes"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rating_22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="No"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+        </LinearLayout>
 
         <Button
             android:id="@+id/farm_assetmit"
