@@ -222,6 +222,7 @@
     <string name="question_sixteen_3">How many hirda plants survived?</string>
     <string name="question_sixteen_4">Do you get working charges for these plants?</string>
     <string name="question_sixteen_5">Do you get labor charges for working for these plants</string>
+    <string name="question_sixteen_6">What kind of assistance do you get regarding horticulture other than above? (Leave blank if not applicable)</string>
 
     <!--Irrigation Facilities-->
     <string name="question_six_1">Owned Land</string>
@@ -308,6 +309,9 @@
     <string name="question_twentyeight_18">Restricted Choice </string>
     <string name="question_twentyeight_19">Lack of marketing support </string>
     <string name="question_twentyeight_20">Any other</string>
+    <string name="title_activity_interventions_regarding_agriculture_sub">
+        interventions_regarding_agriculture_sub
+    </string>
 
 
 </resources>
