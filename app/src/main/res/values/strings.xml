@@ -313,5 +313,25 @@
         interventions_regarding_agriculture_sub
     </string>
 
+    <!--Awareness about TDF-->
+    <string name="question_fourteen_1">How have you heard about Tribal Development Fund?</string>
+    <string-array name="question_fourteen_1_sub">
+        <item>Neighbors</item>
+        <item>News Paper</item>
+        <item>Agriculture/Horticulture Department</item>
+        <item>SAU</item>
+        <item>KVK</item>
+        <item>Input Suppliers</item>
+        <item>TV/Radio</item>
+        <item>Agri. Exhibitors</item>
+        <item>ZP/GP</item>
+        <item>Others</item>
+
+    </string-array>
+    <string name="question_fourteen_2">Did you receive any benefits from TDF?</string>
+    <string name="question_fourteen_3">In how may years have you receive any benefits from TDF in the last five years excluding this year?</string>
+    <string name="question_fourteen_4">Did you receive any benefits from any other Government Scheme in the last one year?</string>
+    <string name="question_fourteen_5">In how may years have you receive any benefits from any other Government Scheme in the last five years excluding this year?</string>
+    <string name="question_fourteen_6">In how may years have you receive any benefits from Small Farmers’ Agri-Business Consortium (SFAC)?</string>
 
 </resources>
