@@ -224,6 +224,34 @@
     <string name="question_fifteen_sub_5">Do you get labor charges for working for these plants</string>
     <string name="question_fifteen_sub_6">What kind of assistance do you get regarding horticulture other than above? (Leave blank if not applicable)</string>
 
+    <!--Interventions Regarding water resources-->
+    <string name="question_sixteen_1">Nature of ownership Common
+                    Individual</string>
+    <string name="question_sixteen_2">Own Contribution</string>
+    <string name="question_sixteen_3">Amount financed by loan</string>
+    <string name="question_sixteen_4">Source of Credit Bank -1 MFI -2
+Money lender -3
+4. Friend/Relatives
+5.Other – 888</string>
+    <string name="question_sixteen_5">Subsidy amount from TDF</string>
+    <string name="question_sixteen_6">Mode of Subsidy Transfer:
+Price Subsidy -1 DBT -2</string>
+    <string name="question_sixteen_7">Total Cost (Rs.)</string>
+    <string name="question_sixteen_8">If DBT, Number of days taken to
+receive subsidy?</string>
+    <string name="question_sixteen_9">Area covered (acres per
+implement)</string>
+    <string name="question_sixteen_10">Benefits derived from the
+implement (Codes Below)</string>
+    <string name="question_sixteen_11">Did you receive subsidy from any
+other scheme?</string>
+    <string name="question_sixteen_12">Yes---1, No---2.
+If yes mention name of the
+scheme</string>
+    <string name="question_sixteen_13">If subsidy not received, would
+you have bought this? (yes---
+1/no---2)</string>
+
     <!--Irrigation Facilities-->
     <string name="question_six_1">Owned Land</string>
     <string name="question_six_2">Leased-In Land</string>

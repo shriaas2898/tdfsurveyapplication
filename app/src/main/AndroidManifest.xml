@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AwarenessAboutTDF"></activity>
+        <activity android:name=".InterventionsRegardingWaterResources"></activity>
+        <activity android:name=".AwarenessAboutTDF" />
         <activity android:name=".QualityOfLife" />
         <activity android:name=".HorticultureInterventionSub" />
         <activity android:name=".InterventionsRegardingHorticultureActivity" />
