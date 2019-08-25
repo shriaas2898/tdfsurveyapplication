@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FamilyDetailsBeneficiary">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/wage_employment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="8dp"
+            android:text="Wage Employment"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/before_tdf_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/before_tdf_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wage_employment_label" />
+
+        <TextView
+            android:id="@+id/family_member_occupation_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_twelve_1"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/before_tdf_label"
+            app:layout_constraintTop_toBottomOf="@+id/before_tdf_label" />
+
+        <EditText
+            android:id="@+id/family_member_occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/family_member_occupation_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_occupation_label" />
+
+        <TextView
+            android:id="@+id/family_member_income_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_twelve_2"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_occupation"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_occupation" />
+
+        <EditText
+            android:id="@+id/family_member_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/family_member_income_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_income_label" />
+
+        <TextView
+            android:id="@+id/after_tdf_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/after_tdf_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_income" />
+
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_twelve_1"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/after_tdf_label"
+            app:layout_constraintTop_toBottomOf="@+id/after_tdf_label" />
+
+        <EditText
+            android:id="@+id/family_member_occupation_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/comments"
+            app:layout_constraintTop_toBottomOf="@+id/comments" />
+
+        <TextView
+            android:id="@+id/family_member_income_label_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_twelve_2"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_occupation_after"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_occupation_after" />
+
+        <EditText
+            android:id="@+id/family_member_income_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/family_member_income_label_after"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_income_label_after" />
+
+
+        <Button
+            android:id="@+id/family_info_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="8dp"
+            android:background="#000000"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_income_after" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

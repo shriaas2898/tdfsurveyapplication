@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/investigator_code_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="8dp"
+        android:text="Investigator code :"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/investigator_code"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="444dp"
+        android:ems="10"
+        android:hint="Enter your code here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/investigator_code_label"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintLeft_toLeftOf="@+id/investigator_code_label"
+        app:layout_constraintTop_toBottomOf="@+id/investigator_code_label"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/village_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintRight_toRightOf="@+id/investigator_code"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="@+id/investigator_code"
+        app:layout_constraintTop_toBottomOf="@+id/investigator_code" />
+
+    <Button
+        android:id="@+id/surveyor_submit"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="submit"
+        app:layout_constraintRight_toRightOf="@+id/village_list"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintLeft_toLeftOf="@+id/village_list"
+        app:layout_constraintTop_toBottomOf="@+id/village_list" />
+
+
+</android.support.constraint.ConstraintLayout>

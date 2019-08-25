@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FamilyDetailsActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/family_details_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="8dp"
+            android:text="Family Details"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/family_member_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/question_three_1"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/family_details_label" />
+
+        <EditText
+            android:id="@+id/family_member_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_name_label"
+            app:layout_constraintStart_toEndOf="@+id/family_member_name_label"
+            app:layout_constraintTop_toTopOf="@+id/family_member_name_label" />
+
+        <TextView
+            android:id="@+id/family_member_age_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_three_2"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_name_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_name_label" />
+
+        <EditText
+            android:id="@+id/family_member_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_age_label"
+            app:layout_constraintStart_toEndOf="@+id/family_member_age_label"
+            app:layout_constraintTop_toTopOf="@+id/family_member_age_label" />
+
+        <TextView
+            android:id="@+id/member_gender_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/question_zero_2"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/family_member_age_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_age_label" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/member_gender_label"
+            app:layout_constraintStart_toEndOf="@+id/member_gender_label"
+            app:layout_constraintTop_toTopOf="@+id/member_gender_label">
+
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/gender_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/gender_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Female"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/family_member_education_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_three_4"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/member_gender_label"
+            app:layout_constraintTop_toBottomOf="@+id/member_gender_label" />
+
+        <EditText
+            android:id="@+id/family_member_education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_education_label"
+            app:layout_constraintStart_toEndOf="@+id/family_member_education_label"
+            app:layout_constraintTop_toTopOf="@+id/family_member_education_label" />
+
+        <TextView
+            android:id="@+id/before_tdf_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/before_tdf_label"
+            android:textColor="#000000"
+            android:layout_marginTop="32dp"
+            android:textSize="30sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_education_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_education_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+             />
+
+        <TextView
+            android:id="@+id/family_member_occupation_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_three_5"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/before_tdf_label"
+            app:layout_constraintTop_toBottomOf="@+id/before_tdf_label" />
+
+        <EditText
+            android:id="@+id/family_member_occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_occupation_label"
+            app:layout_constraintStart_toEndOf="@+id/family_member_occupation_label"
+            app:layout_constraintTop_toTopOf="@+id/family_member_occupation_label" />
+
+        <TextView
+            android:id="@+id/family_member_income_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_three_6"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_occupation_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_occupation_label" />
+
+        <EditText
+            android:id="@+id/family_member_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_income_label"
+            app:layout_constraintStart_toEndOf="@+id/family_member_income_label"
+            app:layout_constraintTop_toTopOf="@+id/family_member_income_label" />
+
+        <TextView
+            android:id="@+id/after_tdf_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/after_tdf_label"
+            android:textColor="#000000"
+            android:layout_marginTop="32dp"
+            android:textSize="30sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_income_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_income_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_three_5"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/after_tdf_label"
+            app:layout_constraintTop_toBottomOf="@+id/after_tdf_label" />
+
+        <EditText
+            android:id="@+id/family_member_occupation_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/comments"
+            app:layout_constraintStart_toEndOf="@+id/comments"
+            app:layout_constraintTop_toTopOf="@+id/comments" />
+
+        <TextView
+            android:id="@+id/family_member_income_label_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_three_6"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/comments"
+            app:layout_constraintTop_toBottomOf="@+id/comments" />
+
+        <EditText
+            android:id="@+id/family_member_income_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_income_label_after"
+            app:layout_constraintStart_toEndOf="@+id/family_member_income_label_after"
+            app:layout_constraintTop_toTopOf="@+id/family_member_income_label_after" />
+
+        <Button
+            android:id="@+id/family_info_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="8dp"
+            android:background="#000000"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_income_after"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

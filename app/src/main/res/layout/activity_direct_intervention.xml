@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DirectInterventionActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fuel_light_expenditure_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="8dp"
+            android:text="Direct Intervention"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/financial_assistance_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/question_nineteen_1"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fuel_light_expenditure_label" />
+
+        <EditText
+            android:id="@+id/financial_assistance_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/financial_assistance_label"
+            app:layout_constraintTop_toBottomOf="@+id/financial_assistance_label" />
+
+        <TextView
+            android:id="@+id/animal_income_generation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/question_nineteen_2"
+            android:textSize="20sp"
+            android:paddingRight="20dp"
+            app:layout_constraintStart_toStartOf="@+id/financial_assistance_label"
+            app:layout_constraintTop_toBottomOf="@+id/financial_assistance_value" />
+
+        <Spinner
+            android:id="@+id/animal_income_generation_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/animal_income_generation"
+            app:layout_constraintTop_toBottomOf="@+id/animal_income_generation" />
+
+        <TextView
+            android:id="@+id/fodder_income_generation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/question_nineteen_3"
+            android:textSize="20sp"
+            android:paddingRight="20dp"
+            app:layout_constraintStart_toStartOf="@+id/animal_income_generation_note"
+            app:layout_constraintTop_toBottomOf="@+id/animal_income_generation_note" />
+
+        <Spinner
+            android:id="@+id/fodder_income_generation_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/fodder_income_generation"
+            app:layout_constraintTop_toBottomOf="@+id/fodder_income_generation" />
+
+        <EditText
+            android:id="@+id/animal_income_generation_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/animal_income_generation_value"
+            app:layout_constraintTop_toBottomOf="@+id/animal_income_generation_value" />
+
+        <EditText
+            android:id="@+id/fodder_income_generation_note"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/fodder_income_generation_value"
+            app:layout_constraintStart_toStartOf="@+id/fodder_income_generation_value"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/recieved_help_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/question_nineteen_4"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/fodder_income_generation_note"
+            app:layout_constraintTop_toBottomOf="@+id/fodder_income_generation_note" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            app:layout_constraintStart_toStartOf="@+id/recieved_help_value"
+            app:layout_constraintTop_toBottomOf="@+id/recieved_help_value">
+
+            <RadioGroup
+                android:id="@+id/yes_no_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Yes"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="No"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/direct_intervention_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#000000"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

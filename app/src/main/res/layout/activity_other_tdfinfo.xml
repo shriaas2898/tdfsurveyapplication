@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtherTDFInfoActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/wage_employment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="8dp"
+            android:text="Other TDF Information"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/beneficiary_occupation_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/question_twentyseven_1"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wage_employment_label" />
+
+        <TextView
+            android:id="@+id/before_tdf_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/question_twentyseven_2"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/beneficiary_occupation_label"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiary_occupation_label" />
+
+        <EditText
+            android:id="@+id/sale_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="9"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/before_tdf_label"
+            app:layout_constraintStart_toEndOf="@+id/before_tdf_label"
+            app:layout_constraintTop_toTopOf="@+id/before_tdf_label" />
+
+        <TextView
+            android:id="@+id/family_member_occupation_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_twentyseven_3"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/before_tdf_label"
+            app:layout_constraintTop_toBottomOf="@+id/before_tdf_label" />
+
+        <EditText
+            android:id="@+id/family_member_occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="9"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_occupation_label"
+            app:layout_constraintStart_toEndOf="@+id/family_member_occupation_label"
+            app:layout_constraintTop_toTopOf="@+id/family_member_occupation_label" />
+
+        <TextView
+            android:id="@+id/family_member_income_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/question_twentyseven_4"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_occupation_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_occupation_label" />
+
+        <EditText
+            android:id="@+id/family_member_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="9"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/family_member_income_label"
+            app:layout_constraintStart_toEndOf="@+id/family_member_income_label"
+            app:layout_constraintTop_toTopOf="@+id/family_member_income_label" />
+
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Any comments:"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/family_member_income_label"
+            app:layout_constraintTop_toBottomOf="@+id/family_member_income" />
+
+        <EditText
+            android:id="@+id/family_member_occupation_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/comments"
+            app:layout_constraintStart_toEndOf="@+id/comments"
+            app:layout_constraintTop_toTopOf="@+id/comments" />
+
+        <Button
+            android:id="@+id/family_info_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="8dp"
+            android:background="#000000"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/comments" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

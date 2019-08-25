@@ -1,0 +1,313 @@
+<resources>
+    <string name="app_name">tdfsurveyapplication</string>
+    <string name="investigator_code_label">Enter Investigator Code:</string>
+    <string-array name="village_list">
+        <item>Village name 1</item>
+    </string-array>
+    <string name="login_button_label">Login</string>
+
+    <!--personal details-->
+    <string name="question_zero_1">Respondent\'s name:</string>
+    <string name="question_zero_2">Gender:</string>
+    <string name="question_zero_3">Year of Joining:</string>
+    <string name="question_zero_4">Contact Number (Mobile):</string>
+
+    <!--basic household information-->
+    <string name="question_one_1">Religion</string>
+    <string-array name="religion_list">
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Christian</item>
+        <item>Buddhist</item>
+        <item>do not know</item>
+        <item>Will not say</item>
+        <item>Other</item>
+    </string-array>
+    <string name="question_one_2">What is your caste?</string>
+    <string-array name="caste_list">
+        <item>Scheduled Caste(SC)</item>
+        <item>Scheduled Tribe(ST)</item>
+        <item>Other Backward Classes(OBC)</item>
+        <item>Other</item>
+        <item>Will not say</item>
+    </string-array>
+    <string name="question_one_2_sub_1">Name of Tribe:</string>
+    <string-array name="tribe_list">
+        <item>Bhil</item>
+        <item>Kathodi</item>
+        <item>Koli</item>
+        <item>Bhil</item>
+        <item>Katkari</item>
+        <item>Dongar</item>
+        <item>Other</item>
+    </string-array>
+    <string name="question_one_3">Total annual income of the family(Gross)</string>
+    <string-array name="income_list">
+        <item>less than 25000</item>
+        <item>25001\-50000</item>
+        <item>50001\-100000</item>
+        <item>100001\-150000</item>
+        <item>150001\-250000</item>
+        <item>250001\-500000</item>
+        <item>greater than 500000</item>
+    </string-array>
+    <string name="question_one_4">How many people live in this household?</string>
+    <string name="question_one_5">How many members have MGNREGA card?</string>
+    <string name="question_one_5_male_label">Male:</string>
+    <string name="question_one_5_female_label">Female:</string>
+    <string name="question_one_6">What is the type of Ration Card is possessed by household?</string>
+    <string-array name="ration_card_type_list">
+        <item>APL</item>
+        <item>BPL</item>
+        <item>Antyodhaya</item>
+        <item>Priority Household</item>
+        <item>Other</item>
+        <item>None</item>
+    </string-array>
+    <string name="question_one_7">How many members in the household have Aadhar card?</string>
+    <string name="question_one_8">Electricity:</string>
+    <string-array name="electricity_place_list">
+        <item>At House</item>
+        <item>At Farm</item>
+        <item>None</item>
+    </string-array>
+    <string name="question_one_9">Number of members of household who are member of SHG:</string>
+
+    <!--Family Details-->
+    <string name="question_two_sub_1">Name</string>
+    <string name="question_two_sub_2">Age</string>
+    <string name="question_two_sub_3">Education</string>
+    <string name="question_two_sub_4">Occupation</string>
+    <string name="question_two_sub_5">Income (Rs.)</string>
+    <string name="before">Before getting TDF</string>
+    <string name="after">After getting TDF</string>
+
+    <!--Asset ownership-->
+    <string-array name="farm_assets">
+        <item>Tractor without Ploughers</item>
+        <item>Tractor with Plougher</item>
+        <item>Manual Sprayer</item>
+        <item>Open Well</item>
+        <item>Tube Well</item>
+        <item>Cattle shed</item>
+        <item>Farm Building</item>
+        <item>Bullock Cart</item>
+        <item>Fodder Chopper</item>
+        <item>Electric Pump</item>
+        <item>Diesel Pump</item>
+        <item>Plougher equipments wooden</item>
+        <item>Plougher iron equipments</item>
+    </string-array>
+    <string-array name="livestock">
+        <item>Cow/Calf</item> <!--need to cross check-->
+        <item>Cow (Cross-bred)</item>
+        <item>Buffalo</item>
+        <item>Sheep</item>
+        <item>Goat</item>
+        <item>Poultry</item>
+        <item>Bullock</item>
+        <item>others</item>
+        <item>Farm</item>
+        <item>Pond</item>
+        <item>Type of house(Codes)</item>
+        <item>No. of rooms</item>
+        <item>No. of Mobile Phones</item>
+        <item>Cycle/Motor Cycle</item> <!--need to cross check-->
+        <item>Car</item>
+        <item>Refrigerator</item>
+    </string-array>
+
+    <!--Family Details-->
+    <string name="question_three_1">Name</string>
+    <string name="question_three_2">Age</string>
+    <string name="question_three_3">Gender</string>
+    <string name="question_three_4">Education</string>
+    <string name="question_three_5">Occupation</string>
+    <string name="question_three_6">Income</string>
+
+    <string name="before_tdf_label">Before TDF</string>
+    <string name="after_tdf_label">After TDF</string>
+
+    <string name="question_three_7">Occupation of Beneficiary</string>
+    <string name="question_three_8">Major:</string>
+    <string name="question_three_9">Minor:</string>
+    <string name="question_three_10">Number of family member details to add</string>
+
+    <!--Farm Asset Details-->
+    <string name="question_four_sub_1">Tractor without plougher</string>
+    <string name="question_four_sub_2">Tractor with plougher</string>
+    <string name="question_four_sub_3">Trolley</string>
+    <string name="question_four_sub_4">Manual Sprayer</string>
+    <string name="question_four_sub_5">Power Sprayer</string>
+    <string name="question_four_sub_6">Open Well</string>
+    <string name="question_four_sub_7">Tube Well</string>
+    <string name="question_four_sub_8">Cattle Shed</string>
+    <string name="question_four_sub_9">Farm Building</string>
+    <string name="question_four_sub_10">Bullock Cart</string>
+    <string name="question_four_sub_11">Fodder Chopper</string>
+    <string name="question_four_sub_12">Electric Pump</string>
+    <string name="question_four_sub_13">Diesel Pump</string>
+    <string name="question_four_sub_14">Plougher Equipments Wooden</string>
+    <string name="question_four_sub_15">Plougher Iron Equipments</string>
+
+    <string name="question_four_sub_one_1">I/J</string>
+    <string name="question_four_sub_one_2">No.</string>
+    <string name="question_four_sub_one_3">Current Value in Rs</string>
+
+    <string name="question_four_sub_21">Cow</string>
+    <string name="question_four_sub_22">Calf</string>
+    <string name="question_four_sub_23">Cow(Cross Breed)</string>
+    <string name="question_four_sub_24">Buffalo</string>
+    <string name="question_four_sub_25">Sheep</string>
+    <string name="question_four_sub_26">Goat</string>
+    <string name="question_four_sub_27">Poultry</string>
+    <string name="question_four_sub_28">Bullock</string>
+    <string name="question_four_sub_29">Others</string>
+    <string name="question_four_sub_30">Other Assets</string>
+    <string name="question_four_sub_31">Type of House(Codes)</string>
+    <string name="question_four_sub_32">No of rooms</string>
+    <string name="question_four_sub_33">No of TVs owned</string>
+    <string name="question_four_sub_34">No of Mobile Phones</string>
+    <string name="question_four_sub_35">Cycle</string>
+    <string name="question_four_sub_36">Motor Cycle</string>
+    <string name="question_four_sub_37">Car</string>
+    <string name="question_four_sub_38">Refrigerator</string>
+
+    <!--Water and Sanitation Facilities-->
+    <string name="question_five_1">Facility of Drinking water in house</string>
+    <string name="question_five_one_1">How far is the water source?</string>
+    <string name="question_five_one_2">Who goes to fetch the water?</string>
+    <string name="question_five_2">Toilet Facility in the house</string>
+    <string name="question_five_two_1">Duration of use in months</string>
+
+    <string name="question_five_1_one">Tap Water</string>
+    <string name="question_five_1_two">Hand-pump</string>
+    <string name="question_five_1_three">Own Well</string>
+    <string name="question_five_1_four">Bore Well</string>
+    <string name="question_five_1_five">Others(please specify)</string>
+    <string name="question_five_1_six">None</string>
+
+    <string name="question_five_1_one_1_one">0-1Km</string>
+    <string name="question_five_1_one_1_two">2Km</string>
+    <string name="question_five_1_one_1_three">3Km</string>
+    <string name="question_five_1_one_1_four">Others(please specify)</string>
+
+    <!--Animal Husbandry Components-->
+    <string name="question_seven_1">Milk</string>
+    <string name="question_seven_2">Meat</string>
+    <string name="question_seven_3">Eggs</string>
+    <string name="question_seven_4">Manure</string>
+    <string name="question_seven_5">Dung Cake</string>
+    <string name="question_seven_6">Animal Sale</string>
+    <string name="question_seven_7">Others</string>
+
+    <string name="question_seven_own_consumption">Own Consumption</string>
+    <string name="question_seven_for_sell">For sell</string>
+
+    <!--Horticulture interventions-->
+    <string name="question_fifteen_1">Cashew Grafts</string>
+    <string name="question_fifteen_2">Mango Grafts</string>
+    <string name="question_fifteen_3">Hirda Grafts</string>
+    <string name="question_fifteen_4">Chemical Fertilizer</string>
+    <string name="question_fifteen_5">Farm equipment</string>
+    <string name="question_fifteen_6">Organic Fertilizer</string>
+    <string name="question_fifteen_7">Forestry Seedling</string>
+    <string name="question_fifteen_8">Pesticides/Insecticides</string>
+    <string name="question_fifteen_9">Pots of irrigation</string>
+    <string name="question_fifteen_10">Seeds for fencing</string>
+    <string name="question_fifteen_11">Spray pump</string>
+
+    <string name="question_sixteen_1">How many mango plants survived?</string>
+    <string name="question_sixteen_2">How many cashew plants survived?</string>
+    <string name="question_sixteen_3">How many hirda plants survived?</string>
+    <string name="question_sixteen_4">Do you get working charges for these plants?</string>
+    <string name="question_sixteen_5">Do you get labor charges for working for these plants</string>
+
+    <!--Irrigation Facilities-->
+    <string name="question_six_1">Owned Land</string>
+    <string name="question_six_2">Leased-In Land</string>
+    <string name="question_six_3">Leased-Out Land</string>
+    <string name="question_six_4">Total Land Possessed</string>
+    <string name="question_six_5">Cultivated Area</string>
+    <string name="question_six_6">Irrigation Area</string>
+    <string name="question_six_7">Barren Land which cannot be brought under cultivation (acres)</string>
+    <string name="question_six_8">Pasture Grazing Land(acres)</string>
+
+    <string name="question_six_unit">Unit(Enter 0 in case of no)</string>
+    <string name="question_six_land_vale">Tentative Value of Land in Rs</string>
+
+    <!--Fuel & Light for Agriculture expenses-->
+    <string name="question_nine_1">Expenditure on Electricity</string>
+    <string name="question_nine_2">Expenditure on Diesel</string>
+    <string name="question_nine_3">Expenditure on Other Fuels for Agriculture</string>
+
+    <string name="question_twelve_1">Wage employment in terms of man days (No. of days)</string>
+    <string name="question_twelve_2">Value of wage employment/day (Rs)</string>
+
+    <!--Direct Intervention-->
+    <string name="question_nineteen_1">Nature of Financial Help through TDF</string>
+    <string name="question_nineteen_2">Did you get any assistance in income generation from animals?(Codes: milk production -1,meat production-2, other-3</string>
+    <string name="question_nineteen_3">Did you get any assistance in fodder development?
+        (Codes: Growing fodder crops -1, purchasing green fodder -2,purchasing dry fodder-3,any other supplements-5)
+    </string>
+    <string name="question_nineteen_4">Whether received veterinary services for animals under TDF?</string>
+
+    <!--Soil Conservation Intervention-->
+    <string name="question_twenty_1">Through TDF,farm bunds have been built at my farm</string>
+    <string name="question_twenty_2">Intervention has been made for Continuous Contour Trenches</string>
+    <string name="question_twenty_3">Through Intervention,water shed has been built</string>
+
+    <string name="question_twenty_sub">Cost incurred for above: </string>
+
+    <!--Other Intervention-->
+    <string name="question_twentyone_1">Through TDF, health awareness related activities are conducted:</string>
+    <string name="question_twentyone_2">Through TDF,support for medicines is provided</string>
+    <string name="question_twentyone_3">Through TDF,woman from household are getting training related to progress of household</string>
+    <string name="question_twentyone_4">Any other support other than above?</string>
+    <string name="question_twentyone_5">Do woman from the household receive any support in terms of material for development purpose?</string>
+
+    <!--Environmental Benefits-->
+    <string name="question_twentytwo_exists">Check the eco friendly practices which existed before TDF</string>
+    <string name="question_twentytwo_increase">Check the eco friendly practices which increased after TDF</string>
+
+    <string name="question_twentytwo_1">Availibility of Irrigation Water</string>
+    <string name="question_twentytwo_2">Ground water Storage</string>
+    <string name="question_twentytwo_3">Use of organic manures and bio-pesticides</string>
+    <string name="question_twentytwo_4">Adpotion of soil conservation practices</string>
+    <string name="question_twentytwo_5">Adoption of water conservation practices</string>
+    <string name="question_twentytwo_6">Dependence on forest for fodder,fuel etc</string>
+    <string name="question_twentytwo_7">Green cover in the area and adjoining areas</string>
+    <string name="question_twentytwo_8">Propensity of Floods</string>
+    <string name="question_twentytwo_9">Propensity of Drought</string>
+
+    <!--Other TDF Information-->
+    <string name="question_twentyseven_1">Agricultural Marketing details of TDF beneficiaries</string>
+    <string name="question_twentyseven_2">Amount of sale(Rs.)</string>
+    <string name="question_twentyseven_3">Marketing Channels (Code)</string>
+    <string name="question_twentyseven_4">Selling through different agents(Code)</string>
+    <string name="question_twentyseven_5">Average distance covered for the sale(Km)</string>
+
+    <!--Constraints while availing TDF benefits-->
+    <string name="question_twentyeight_1">Information about RKVY programme details not easily available</string>
+    <string name="question_twentyeight_2">Contact details of the department which pay subsidy not available</string>
+    <string name="question_twentyeight_3">Eligibility or criteria for availing the subsidy not known</string>
+    <string name="question_twentyeight_4">Procedure for the subsidy very tedious</string>
+    <string name="question_twentyeight_5">No of documents required for availing subsidy are too many</string>
+    <string name="question_twentyeight_6">Subsidy paid after purchase while initial payment remains the highest problem</string>
+    <string name="question_twentyeight_7">Delay in transfer</string>
+    <string name="question_twentyeight_8">Prescribed machinery/asset not easily available in the market</string>
+    <string name="question_twentyeight_9">Institutional financing facility not available</string>
+    <string name="question_twentyeight_10">Capacity building/technical advice not provided</string>
+    <string name="question_twentyeight_11"> Long time gap between the purchase and receiving the subsidy amount</string>
+    <string name="question_twentyeight_12">Biased towards large land owners</string>
+    <string name="question_twentyeight_13">Poor quality of materials/machinery are supplied</string>
+    <string name="question_twentyeight_14">Implementing agencies are located far away</string>
+    <string name="question_twentyeight_15">Incidence of bribery</string>
+    <string name="question_twentyeight_16"> Lack of monitoring</string>
+    <string name="question_twentyeight_17">Complementary inputs not available</string>
+    <string name="question_twentyeight_18">Restricted Choice </string>
+    <string name="question_twentyeight_19">Lack of marketing support </string>
+    <string name="question_twentyeight_20">Any other</string>
+
+
+</resources>
